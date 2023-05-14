@@ -242,12 +242,16 @@ img {
     .flex-items {
         flex-direction: column;
     }
-
+   
     .flex-columns .column, .flex-grid .column {
         flex: 100%;
         max-width: 100%;
     }
-
+    .flex-grid .column img {
+        background-size: cover;
+        height: 30vh;
+        gap: 30px;
+    }
     .team img {
         width: 70%;
     }
