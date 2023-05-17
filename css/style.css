@@ -249,6 +249,8 @@ img {
     }
     .flex-grid .column img {
         background-size: cover;
+        /* object-fit: cover; */
+        /* border-radius: 20px; */
         height: 30vh;
         gap: 30px;
     }
